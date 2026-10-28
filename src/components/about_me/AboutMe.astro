@@ -1,0 +1,508 @@
+---
+import FolderSVG from './FolderSVG.astro';
+import ProjectNav from './ProjectNav.astro';
+import Button from './Button.astro';
+import ContactMe from './ContactMe.astro';
+
+import TextLogo from '../logo/TextLogo.astro';
+---
+
+<style>
+    @media screen and (min-width: 2156){
+        .marginleft {
+            margin-left: 30px;
+        }
+        .inner-pn-grid {
+            translate: 0 65%;
+            scale: 4.75;
+            /* gap: 1%; */
+            font-size: 2.25cqw;
+        }
+    }
+
+    @media screen and (min-width: 1920px) and (max-width: 2155px) {
+        .marginleft {
+            margin-left: 30px;
+        }
+        .inner-pn-grid {
+            translate: 0 45%;
+            scale: 4.5;
+            font-size: 2.5cqw;
+        }
+    }
+
+    @media screen and (min-width: 1600px) and (max-width: 1919px) {
+        .marginleft {
+            margin-left: 30px;
+        }
+        .inner-pn-grid {
+            translate: 0 45%;
+            scale: 4;
+            font-size: 2.75cqw;
+        }
+    }
+
+    @media screen and (min-width: 1280px) and (max-width: 1599px) {
+        .marginleft {
+            margin-left: 30px;
+        }
+        .inner-pn-grid {
+            font-size: 3cqw;
+        }
+    }
+
+    @media screen and (min-width: 920px) and (max-width: 1279px) {
+        .marginleft {
+            margin-left: 30px;
+        }
+        .inner-pn-grid {
+            font-size: 4.75cqw;
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 919px) {
+        .marginleft {
+            margin-left: 30px;
+        }
+        .inner-pn-grid {
+            font-size: 6cqw;
+        }
+    }
+
+    @media screen and (min-width: 530px) and (max-width: 767px) {
+        .marginleft {
+            margin-left: 25px;
+        }
+        .inner-pn-grid {
+            scale: 1.65;
+            gap: 1%;
+            font-size: 6cqw;
+        }
+    }
+
+    @media screen and (min-width: 480px) and (max-width: 529px) {
+        .marginleft {
+            margin-left: 20px;
+        }
+        .inner-pn-grid {
+            scale: 1.4;
+            gap: 5%;
+            font-size: 10cqw;
+        }
+    }
+
+    @media screen and (max-width: 479px) {
+        .marginleft {
+            margin-left: 10px;
+        }
+        .inner-pn-grid {
+            scale: 1.2;
+            gap: 5%;
+            font-size: 10cqw;
+        }
+    }
+
+
+    @media screen and (max-width: 640px) {
+        .element-top-ab1{
+            font-size: 9.2cqw;
+        }
+        .element-top-ab2{
+            font-size: 2.15cqw;
+        }
+        .element-top-ab3{
+            font-size: 7cqw;
+        }
+        .element-top-ab3-1, .element-top-ab5, .element-top-ab5-1, .element-top-ab7{
+            font-size: 5cqw;
+        }
+        .element-top-ab4, .element-top-ab6, .element-top-ab6-1, .element-top-ab8{
+            font-size: 2.8cqw;
+        }
+        .element-top-ab4-1{
+            font-size: 2.65cqw;
+        }
+
+        .element-top-cm2, .element-top-cm3 {
+            font-size: 3cqw;
+        }
+        .element-top-cm2-1, .element-top-cm3-1, #send-message-button{
+            font-size: 2cqw;
+        }
+
+        
+        .element-top-ab1, .element-top-ab2 {
+            width: 50vw;
+        }
+        .element-top-ab3, .element-top-ab4 {
+            width: 64vw;
+        }
+        .element-top-ab3-1, .element-top-ab4-1, .element-top-ab5, .element-top-ab5-1, .element-top-ab6, .element-top-ab6-1{
+            width: 95vw;
+        }
+        .element-top-ab7, .element-top-ab8 {
+            width: 45vw;
+        }
+
+        /* .inner-pn-grid {
+            translate: -20% 0;
+        } */
+    }
+
+    @media screen and (min-width: 640px) {
+        .element-top-ab1{
+            font-size: 10cqw;
+        }
+        .element-top-ab2{
+            font-size: 2.47cqw;
+        }
+        .element-top-ab3{
+            font-size: 3.75cqw;
+        }
+        .element-top-ab3-1, .element-top-ab5, .element-top-ab5-1, .element-top-ab7, .element-top-cm2, .element-top-cm3{
+            font-size: 2.8cqw;
+        }
+        .element-top-ab4, .element-top-ab6, .element-top-ab6-1, .element-top-ab8, .element-top-cm2-1, .element-top-cm3-1, #send-message-button{
+            font-size: 1.45cqw;
+        }
+        .element-top-ab4-1{
+            font-size: 1.25cqw;
+        }
+
+        .element-top-cm1 { 
+            font-size: 5cqw;
+        }
+
+        .element-top-ab1, .element-top-ab2, .element-top-ab3, .element-top-ab4 {
+            width: 60vw;
+        }
+        .element-top-ab6{
+            width: 35vw;
+        }
+        .element-top-ab7, .element-top-ab8 {
+            width: 20vw;
+        }
+        
+        .element-top-ab5-1, .element-top-ab6-1 {
+            width: 40vw;
+        }
+    }
+    .element-top-ab1 {
+        z-index: 3; 
+    }
+
+    .element-top-ab1-1 {
+        z-index: 3; 
+        font-family: 'Maratype';
+        /* letter-spacing: 0.1em; */
+        color: #242582;
+    }
+
+    .element-top-ab2 {
+        z-index: 3; 
+        font-family: 'Blue Screen Personal Use';
+        color: #242582;
+    }
+
+    .element-top-ab3, .element-top-ab3-1 {
+        z-index: 3; 
+        font-family: 'Greater Theory';
+        color: #242582;
+    }
+
+    .element-top-ab4,.element-top-ab4-1 {
+        z-index: 3; 
+        font-family: 'Kode Mono';
+        color: #242582;
+    }
+
+    .element-top-ab5, .element-top-ab5-1 {
+        z-index: 3; 
+        width: 34vw;
+        font-family: 'Greater Theory';
+        color: #242582;
+    }
+
+    .element-top-ab6, .element-top-ab6-1 {
+        z-index: 3; 
+        font-family: 'Kode Mono';
+        color: #242582;
+    }
+
+    .element-top-ab7 {
+        z-index: 3; 
+        font-family: 'Greater Theory';
+        color: #242582;
+    }
+
+    .element-top-ab8 {
+        z-index: 3; 
+        font-family: 'Kode Mono';
+        color: #242582;
+    }
+
+    .element-top-ab1 {
+        z-index: 4; 
+        font-family: 'Greater Theory';
+        color: #242582;
+    }
+
+    .element-top-pn {
+        z-index: 4;
+        font-family: 'Greater Theory';
+        color: #C1C6FF
+    }
+
+    .element-bottom-cm {
+        z-index: 5;
+    }
+
+    .element-top-cm {
+        z-index: 6;
+    }
+
+    .element-top-cm1, .element-top-cm2, .element-top-cm3 {
+        z-index: 6;
+        font-family: 'Greater Theory';
+        color: #242582
+    }
+
+    .element-top-cm2-1, .element-top-cm3-1 {
+        z-index: 6;
+        font-family: 'Kode Mono';
+        background-color: #D2D6FF;
+        color: #242582
+    }
+
+    #send-message-button {
+        z-index: 6;
+        font-family: 'Apple II Screen';
+        background-color: #939CFB;
+        color: #242582
+    }
+
+    #sent-close-button {
+        font-family: 'Apple II Screen';
+        background-color: #939CFB;
+        color: #242582
+    }
+
+    #send-message-button:hover, #sent-close-button:hover {
+        background-color: #707AE9; 
+        cursor:pointer;
+    }
+
+
+</style>
+
+<div class="grid-container">
+    <div class="element-bottom-ab1">
+        <FolderSVG></FolderSVG>
+    </div>
+    <div class="element-top-ab1 h-[1%] ml-[.5%] mr-[1%] mt-[.1%] sm:h-[25%] sm:mt-[.2%]">
+
+        <div class="responsive-container element-top-ab1-1 mt-[2%] sm:mt-[0%]">
+            <span class="flex items-center responsive-text">
+                <TextLogo></TextLogo><span>SHELDON</span><span class="ml-[2%]">HUNG</span><TextLogo></TextLogo>
+            </span>
+        </div>
+
+        <div class="responsive-container element-top-ab2 mt-[-3%] ml-[3%] sm:ml-[0.5%] sm:mt-[-4.2%]">
+            <span class="responsive-text marginleft">MULTIMEDIA DIGITAL DESIGNER/DEVELOPER</span>
+        </div>
+
+        <div class="responsive-container element-top-ab3 mt-[2%] ml-[.5%] sm:mt-[1%]">
+            <span class="responsive-text marginleft">ABOUT ME</span>
+        </div>
+
+        <div class="responsive-container element-top-ab4 ml-[.5%] sm:mt-[1%]">
+            <p class="responsive-text marginleft">
+                Hi, I’m a Multimedia Artist & Developer interested in marketing, social media & design.
+                Looking to utilize both creative and technical skills. 
+                Always willing to dive into new fields!
+            </p>
+        </div>
+
+        <div class="responsive-container element-top-ab3-1 ml-[.5%] sm:mt-[1%]">
+            <span class="responsive-text marginleft">EXPERIENCE</span>
+        </div>
+
+        <div class="responsive-container element-top-ab4-1 ml-[.5%] sm:mt-[1%]">
+            <p class="responsive-text marginleft">Marketing & Sales | HEIKE-NY</p>
+        </div>
+        <div class="responsive-container element-top-ab4-1 ml-[1%] sm:mt-[-.5%]">
+            <p class="responsive-text marginleft">Jul 2026 - Aug 2026</p>
+        </div>
+        <div class="responsive-container element-top-ab4-1 ml-[.5%] sm:mt-[1%]">
+            <p class="responsive-text marginleft">Social Media Marketing | Personaland</p>
+        </div>
+        <div class="responsive-container element-top-ab4-1 ml-[1%] sm:mt-[-.5%]">
+            <p class="responsive-text marginleft">Mar 2026 - May 2026</p>
+        </div>
+        <div class="responsive-container element-top-ab4-1 ml-[.5%] sm:mt-[1%]">
+            <p class="responsive-text marginleft">Graphics Committee | Baruch Esports Association</p>
+        </div>
+        <div class="responsive-container element-top-ab4-1 ml-[1%] sm:mt-[-.5%]">
+            <p class="responsive-text marginleft">Sep 2025 - Dec 2025</p>
+        </div>
+
+        <div class="h-full grid grid-cols-2 gap-[20%] sm:gap-0 sm:flex">
+
+            <div class="col-span-2">
+
+                <div class="responsive-container element-top-ab5 ml-[.5%] sm:mt-[1%]">
+                    <span class="responsive-text marginleft">EDUCATION</span>
+                </div>
+
+                <div class="responsive-container element-top-ab6 ml-[.5%] sm:mt-[1%]">
+                    <p class="responsive-text marginleft">Brooklyn College</p>
+                </div>
+                <div class="responsive-container element-top-ab6 ml-[1%] sm:mt-[-.5%]">
+                    <p class="responsive-text marginleft">Aug 2023 - May 2027</p>
+                </div>
+                <div class="responsive-container element-top-ab6 ml-[.5%] sm:mt-[1.85%]">
+                    <p class="responsive-text marginleft">Major | Multimedia Computing</p>
+                </div>
+                <div class="responsive-container element-top-ab6 ml-[.5%] sm:mt-[0]">
+                    <p class="responsive-text marginleft">Minor | Digital Design & Production</p>
+                </div>
+                <div class="responsive-container element-top-ab6 ml-[.5%] sm:mt-[0]">
+                    <p class="responsive-text marginleft">Executive Board | Badminton Club</p>
+                </div>
+
+            </div>
+
+            <div>
+
+                <div class="responsive-container element-top-ab7 ml-[.5%] sm:mt-[1%]">
+                    <span class="responsive-text marginleft">SKILLS</span>
+                </div>
+
+                <div class="responsive-container element-top-ab8 ml-[.5%] sm:mt-[1%]">
+                    <p class="responsive-text marginleft">Social Media</p>
+                </div>
+                <div class="responsive-container element-top-ab8 ml-[.5%] sm:mt-[0%]">
+                    <p class="responsive-text marginleft">Graphic Design</p>
+                </div>
+                <div class="responsive-container element-top-ab8 ml-[.5%] sm:mt-[0]">
+                    <p class="responsive-text marginleft">Web Design</p>
+                </div>
+                <div class="responsive-container element-top-ab8 ml-[.5%] sm:mt-[0]">
+                    <p class="responsive-text marginleft">3D Modeling</p>
+                </div>
+                <div class="responsive-container element-top-ab8 ml-[.5%] sm:mt-[0]">
+                    <p class="responsive-text marginleft">Game Programming</p>
+                </div>
+
+            </div>
+
+            <div>
+
+                <div class="responsive-container element-top-ab5-1 ml-[.5%] sm:h-[22%] sm:mt-[1%]">
+                    <span class="responsive-text marginleft">PROGRAMS</span>
+                </div>
+
+                <div class="responsive-container element-top-ab6-1 ml-[.5%] sm:h-[14%] sm:mt-[1%]">
+                    <p class="responsive-text marginleft">Discord | Instagram | TikTok | WhatsApp</p>
+                </div>
+                <div class="responsive-container element-top-ab6-1 ml-[.5%] sm:h-[14%] sm:mt-[0%]">
+                    <p class="responsive-text marginleft">Illustrator | Photoshop | Canva</p>
+                </div>
+                <div class="responsive-container element-top-ab6-1 ml-[.5%] sm:h-[14%] sm:mt-[0]">
+                    <p class="responsive-text marginleft">Figma</p>
+                </div>
+                <div class="responsive-container element-top-ab6-1 ml-[.5%] sm:h-[14%] sm:mt-[0]">
+                    <p class="responsive-text marginleft">Maya | Blender</p>
+                </div>
+                <div class="responsive-container element-top-ab6-1 ml-[.5%] sm:h-[14%] sm:mt-[0]">
+                    <p class="responsive-text marginleft">Roblox Studio | Unity</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="mt-[-1%]">
+        <div class="grid-container">
+            <div class=element-bottom-pn><ProjectNav></ProjectNav></div>
+            <div class="element-top-pn grid grid-cols-1 text-center">
+                <div></div>
+                <span class="flex element-top-pn1 col-span-1 w-full text-[5cqw] items-center justify-center">PROJECTS</span>
+                <div class=""></div>
+                <div class="hidden lg:block"></div>
+                <div class="inner-pn-grid grid grid-cols-4 sm:flex sm:justify-center sm:scale-[165%] md:scale-[185%] lg:scale-[275%] sm:gap-[1%]">
+                    <div class="block sm:hidden"></div>
+                    <button id="posters-button-svg-pn" class="flex justify-center" onclick="window.location.href='/posters';">
+                        <Button></Button>         
+                    </button>
+                    <button id="internet-button-svg-pn" class="flex justify-center" onclick="window.location.href='/posters';">
+                        <Button></Button>               
+                    </button>
+                    <div class="block sm:hidden"></div>
+                    <div class="block sm:hidden"></div>
+                    <button id="3dmodels-button-svg-pn" class="flex justify-center" onclick="window.location.href='/3dmodels';">
+                        <Button></Button>             
+                    </button>
+                    <!-- <button id="games-button-svg-pn" class="flex justify-center" onclick="window.location.href='/games';">
+                        <Button></Button>            
+                    </button> -->
+                </div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-[-10%]">
+        <div class="grid-container">
+            <div class="element-bottom-cm"><ContactMe></ContactMe></div>
+
+            <form id="googleForm" method="post" target="hidden_iframe" class="element-top-cm flex flex-col mt-[10%] mb-[11%] ml-[2.75%] w-[70%]" action="https://docs.google.com/forms/d/e/1FAIpQLSd16kQk-Q6cadff_5M1GrUffNAGL7CEVWfbg-n5eTmLTqOaBA/formResponse?">
+                <span class="element-top-cm1">CONTACT ME</span>
+
+                <label for="entry.140084708" class="element-top-cm2 mt-[1%]">EMAIL</label>
+                <input class="element-top-cm2-1 h-[7.5%]" type="email" id="entry.140084708" name="entry.140084708" placeholder="youremail@domain.com" required>
+
+                <label for="entry.935312899" class="element-top-cm3 mt-[1%]">MESSAGE</label>
+                <textarea class="element-top-cm3-1 h-[35%]" id="entry.935312899" name="entry.935312899" placeholder="Tell me something" required></textarea>
+                
+                <input id="send-message-button" type="submit" value="SEND" class="cut-corners mt-[4%] text-center w-[12.5%] h-[7%]">
+            </form>
+            <iframe id="hidden_iframe" name="hidden_iframe" title="gFormWindow" hidden></iframe>
+        </div>
+    </div>
+</div>
+
+<div id="message-sent-popup" class="fixed inset-0 z-10 bg-[rgb(112,122,233,0.75)] hidden justify-center items-center">
+    <div class="w-screen flex flex-col items-center text-center">
+        <span class="element-top-cm1">MESSAGE SENT</span>
+        <span style="font-family: 'Kode Mono';" class="text-[2cqw]">Expect a reply within 1-3 days!</span>
+        <!-- <div></div> -->
+        <button id="sent-close-button" class="cut-corners w-[25%] mt-[2%] text-[2cqw]">CLOSE</button>
+    </div>
+</div>
+
+<script>
+    let submitted = false;
+    const googleForm = document.getElementById('googleForm');
+    const hiddenIframe = document.getElementById('hidden_iframe');
+    const messagePopup = document.getElementById('message-sent-popup');
+    const sentCloseButton = document.getElementById('sent-close-button');
+
+    googleForm?.addEventListener('submit', () => {
+        submitted = true;
+    });
+
+    hiddenIframe?.addEventListener('load', () => {
+        if (submitted) {
+            console.log('submitted');
+            messagePopup?.classList.replace('hidden', 'flex');
+            googleForm.reset();
+        }
+    });
+
+    sentCloseButton?.addEventListener('click', () => {
+        messagePopup?.classList.replace('flex', 'hidden');
+    })
+</script>

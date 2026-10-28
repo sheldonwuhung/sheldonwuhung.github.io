@@ -1,0 +1,907 @@
+{"message":"Enabling image processing with Cloudflare Images for production with the \"IMAGES\" Images binding.","label":"@astrojs/cloudflare","level":"info"}
+{"message":"Enabling sessions with Cloudflare KV with the \"SESSION\" KV binding.","label":"@astrojs/cloudflare","level":"info"}
+{"message":"Re-optimizing dependencies because vite config has changed","label":"vite","level":"info"}
+{"message":"connected.","label":"vite","level":"info"}
+{"message":"[optimizer] bundling dependencies...","label":"vite","level":"info"}
+{"message":"Generated 3ms","label":"types","level":"info"}
+{"message":"Re-optimizing dependencies because vite config has changed","label":"vite","level":"info"}
+{"message":"Re-optimizing dependencies because vite config has changed","label":"vite","level":"info"}
+{"message":" astro  v7.2.2 ready in 9466 ms\n┃ Local    http://localhost:4321/\n┃ Network  use --host to expose","label":"SKIP_FORMAT","level":"info"}
+{"message":"watching for file changes...","label":null,"level":"info"}
+{"message":"Configuration file updated. Restarting...","label":null,"level":"info"}
+{"message":"Enabling image processing with Cloudflare Images for production with the \"IMAGES\" Images binding.","label":"@astrojs/cloudflare","level":"info"}
+{"message":"Enabling sessions with Cloudflare KV with the \"SESSION\" KV binding.","label":"@astrojs/cloudflare","level":"info"}
+{"message":"connected.","label":"vite","level":"info"}
+{"message":"server restarted.","label":"vite","level":"info"}
+{"message":"[optimizer] bundling dependencies...","label":"vite","level":"info"}
+{"message":"dependency optimized: astro/logger/json","label":"vite","level":"info"}
+{"message":"optimized dependencies changed. reloading","label":"vite","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 2302ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 2308ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 57ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 41ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 41ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 39ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 23ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 20ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/about_me/MobileFolderSVG.astro?astro&type=style&index=0&lang.css, /src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 40ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/about_me/MobileFolderSVG.astro?astro&type=style&index=0&lang.css, /src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 47ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 18ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 47ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/about_me/MobileFolderSVG.astro?astro&type=style&index=0&lang.css, /src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 36ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 18ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/about_me/MobileFolderSVG.astro?astro&type=style&index=0&lang.css, /src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 52ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 46ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 41ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 42ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 43ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 42ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/about_me/MobileFolderSVG.astro?astro&type=style&index=0&lang.css, /src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 38ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 49ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/about_me/MobileFolderSVG.astro?astro&type=style&index=0&lang.css, /src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 42ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/about_me/DesktopFolderSVG.astro?astro&type=style&index=0&lang.css, /src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 58ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/about_me/MobileFolderSVG.astro?astro&type=style&index=0&lang.css, /src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 35ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 56ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 21ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/about_me/MobileFolderSVG.astro?astro&type=style&index=0&lang.css, /src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 45ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 36ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/pages/index.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 31ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/about_me/MobileFolderSVG.astro?astro&type=style&index=0&lang.css, /src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 30ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/pages/index.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 36ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 28ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/pages/index.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"Internal server error: document is not defined\n      at runInRunnerObject (workers/runner-worker/index.js:107:3)\n      at NonRunnablePipeline.getComponentByRoute (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/app/dev/pipeline.js:115:12)\n      at matchRoute (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/routing/dev.js:24:14)\n      at DevApp.devMatch (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/app/dev/app.js:47:26)\n      at Object.handle [as fetch] (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/@astrojs/cloudflare/dist/utils/handler.js:62:20)\n      at maybeCaptureError (workers/runner-worker/index.js:51:10)","label":"vite","level":"error"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"Internal server error: document is not defined\n      at runInRunnerObject (workers/runner-worker/index.js:107:3)\n      at NonRunnablePipeline.getComponentByRoute (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/app/dev/pipeline.js:115:12)\n      at matchRoute (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/routing/dev.js:24:14)\n      at DevApp.devMatch (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/app/dev/app.js:47:26)\n      at Object.handle [as fetch] (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/@astrojs/cloudflare/dist/utils/handler.js:62:20)\n      at maybeCaptureError (workers/runner-worker/index.js:51:10)","label":"vite","level":"error"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"Internal server error: document is not defined\n      at runInRunnerObject (workers/runner-worker/index.js:107:3)\n      at NonRunnablePipeline.getComponentByRoute (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/app/dev/pipeline.js:115:12)\n      at matchRoute (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/routing/dev.js:24:14)\n      at DevApp.devMatch (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/app/dev/app.js:47:26)\n      at Object.handle [as fetch] (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/@astrojs/cloudflare/dist/utils/handler.js:62:20)\n      at maybeCaptureError (workers/runner-worker/index.js:51:10)","label":"vite","level":"error"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"Internal server error: document is not defined\n      at runInRunnerObject (workers/runner-worker/index.js:107:3)\n      at NonRunnablePipeline.getComponentByRoute (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/app/dev/pipeline.js:115:12)\n      at matchRoute (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/routing/dev.js:24:14)\n      at DevApp.devMatch (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/app/dev/app.js:47:26)\n      at Object.handle [as fetch] (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/@astrojs/cloudflare/dist/utils/handler.js:62:20)\n      at maybeCaptureError (workers/runner-worker/index.js:51:10)","label":"vite","level":"error"}
+{"message":"src/pages/index.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 30ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 21ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/pages/index.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 47ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/pages/index.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 35ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 46ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 24ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 19ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/about_me/DesktopFolderSVG.astro?astro&type=style&index=0&lang.css, /src/styles/global.css","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 22ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/about_me/MobileFolderSVG.astro?astro&type=style&index=0&lang.css, /src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"Internal server error: Failed to load url /src/components/about_me/MobileFolderSVG.astro (resolved id: C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/src/components/about_me/MobileFolderSVG.astro) in C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/src/components/about_me/AboutMe.astro. Does the file exist?\n      at runInRunnerObject (workers/runner-worker/index.js:107:3)\n      at NonRunnablePipeline.getComponentByRoute (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/app/dev/pipeline.js:115:12)\n      at matchRoute (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/routing/dev.js:24:14)\n      at DevApp.devMatch (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/app/dev/app.js:47:26)\n      at Object.handle [as fetch] (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/@astrojs/cloudflare/dist/utils/handler.js:62:20)\n      at maybeCaptureError (workers/runner-worker/index.js:51:10)","label":"vite","level":"error"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 54ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 55ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 35ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 34ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 38ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 48ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 47ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 47ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 49ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 75ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 41ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 39ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 21ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 32ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 33ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 14ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 46ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 35ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 26ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 17ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 18ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 26ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 33ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 40ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 27ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 21ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 20ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 19ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 25ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 19ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/pages/index.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 47ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/pages/index.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"src/pages/index.astro","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 80ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 52ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 23ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 47ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 19ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 21ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 45ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 62ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 58ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 39ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 43ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 36ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 43ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 44ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 45ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 27ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 48ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 35ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 46ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 39ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 49ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"src/pages/index.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 68ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/pages/index.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 69ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 19ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 54ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 51ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 45ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 20ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 20ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 31ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 30ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 31ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 44ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 33ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 63ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 34ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 33ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 32ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"Internal server error: Expected corresponding JSX closing tag for 'g'.\n      at runInRunnerObject (workers/runner-worker/index.js:107:3)\n      at NonRunnablePipeline.getComponentByRoute (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/app/dev/pipeline.js:115:12)\n      at matchRoute (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/routing/dev.js:24:14)\n      at DevApp.devMatch (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/app/dev/app.js:47:26)\n      at Object.handle [as fetch] (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/@astrojs/cloudflare/dist/utils/handler.js:62:20)\n      at maybeCaptureError (workers/runner-worker/index.js:51:10)","label":"vite","level":"error"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 56ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 42ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 57ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 32ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 34ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 38ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 34ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 33ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 35ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 48ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 35ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 29ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 36ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 32ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 31ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 34ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 30ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 39ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 35ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 36ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 38ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 19ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 36ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 34ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 34ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 39ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 23ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 21ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 19ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 20ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 30ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 61ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 48ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 73ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 48ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 20ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 50ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 43ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"Internal server error: Invalid characters after number\n      at runInRunnerObject (workers/runner-worker/index.js:107:3)\n      at NonRunnablePipeline.getComponentByRoute (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/app/dev/pipeline.js:115:12)\n      at matchRoute (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/routing/dev.js:24:14)\n      at DevApp.devMatch (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/app/dev/app.js:47:26)\n      at Object.handle [as fetch] (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/@astrojs/cloudflare/dist/utils/handler.js:62:20)\n      at maybeCaptureError (workers/runner-worker/index.js:51:10)","label":"vite","level":"error"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 38ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/pages/index.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 56ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"src/pages/index.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 115ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/pages/index.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 54ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/pages/index.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 57ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/pages/index.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 47ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/components/hero/Carousel.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 56ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/components/hero/Carousel.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 52ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/components/hero/Carousel.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 71ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/hero/Carousel.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"src/components/hero/Carousel.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 96ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/hero/Carousel.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"/src/components/hero/Carousel.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"src/components/hero/Carousel.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 40ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/hero/Carousel.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"src/components/hero/Carousel.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 41ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/hero/Carousel.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"src/components/hero/Carousel.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 41ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/hero/Carousel.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"src/components/hero/Carousel.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 43ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/hero/Carousel.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"/src/components/hero/Carousel.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"/src/components/hero/Carousel.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"/src/components/hero/Carousel.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"/src/components/hero/Carousel.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"src/components/nav/Nav.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/components/nav/Nav.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 45ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/components/nav/Nav.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/components/nav/Nav.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 41ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/components/nav/Nav.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 45ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/components/nav/Nav.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 43ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/components/nav/Nav.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 46ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/components/nav/Nav.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 40ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/components/nav/Nav.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 52ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/components/nav/Nav.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 50ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/components/nav/Nav.astro","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 38ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 36ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 49ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 32ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 78ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 46ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 36ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 38ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 59ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 33ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 34ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 35ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 34ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 36ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 35ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 35ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 42ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 43ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 15ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 22ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"Internal server error: Expected corresponding JSX closing tag for 'TextLogo'.\n      at runInRunnerObject (workers/runner-worker/index.js:107:3)\n      at NonRunnablePipeline.getComponentByRoute (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/app/dev/pipeline.js:115:12)\n      at matchRoute (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/routing/dev.js:24:14)\n      at DevApp.devMatch (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/astro/dist/core/app/dev/app.js:47:26)\n      at Object.handle [as fetch] (C:/Users/sheld/OneDrive/Documents/School/Summer 2026/Portfolio/node_modules/@astrojs/cloudflare/dist/utils/handler.js:62:20)\n      at maybeCaptureError (workers/runner-worker/index.js:51:10)","label":"vite","level":"error"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 47ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 35ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 36ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 65ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 34ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 39ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 48ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/logo/TextLogo.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"/src/components/logo/TextLogo.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 36ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/components/logo/TextLogo.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"/src/components/logo/TextLogo.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"/src/components/logo/TextLogo.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"/src/components/logo/TextLogo.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"/src/components/logo/TextLogo.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 39ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 36ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 43ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 61ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 35ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 35ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 46ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 39ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 53ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 36ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 14ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"[Unhandled error] TypeError: can't access property 0, responsiveContainersWithText is undefined\n > handleResize src/scripts/responsive.js?t=1787181800033:65:13\n > src/scripts/responsive.js?t=1787181800033:77:5\n","label":"vite","level":"error"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 39ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"[Unhandled error] TypeError: can't access property 0, responsiveContainersWithText is undefined\n > handleResize src/scripts/responsive.js?t=1787181800033:65:13\n > src/scripts/responsive.js?t=1787181800033:77:5\n","label":"vite","level":"error"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 16ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"[Unhandled error] TypeError: can't access property 0, responsiveContainersWithText is undefined\n > handleResize src/scripts/responsive.js?t=1787181910471:65:13\n > src/scripts/responsive.js?t=1787181910471:77:5\n","label":"vite","level":"error"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 29ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"[Unhandled error] TypeError: can't access property 0, responsiveContainersWithText is undefined\n > handleResize src/scripts/responsive.js?t=1787181914017:65:13\n > src/scripts/responsive.js?t=1787181914017:77:5\n","label":"vite","level":"error"}
+{"message":"[Unhandled error] TypeError: can't access property 0, responsiveContainersWithText is undefined\n > handleResize src/scripts/responsive.js?t=1787181914017:65:13\n","label":"vite","level":"error"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 17ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"[Unhandled error] TypeError: can't access property 0, responsiveContainersWithText is undefined\n > handleResize src/scripts/responsive.js?t=1787181964763:64:13\n > src/scripts/responsive.js?t=1787181964763:76:5\n","label":"vite","level":"error"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 22ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"[Unhandled error] TypeError: can't access property 0, responsiveContainersWithText is undefined\n > handleResize src/scripts/responsive.js?t=1787182028809:66:13\n > src/scripts/responsive.js?t=1787182028809:78:5\n","label":"vite","level":"error"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 19ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 19ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 19ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 19ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 19ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 20ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 38ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 38ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 39ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 53ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 38ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 38ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 18ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 25ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 17ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 39ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 48ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 23ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 22ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 24ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 30ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 20ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 37ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 46ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 23ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"src/scripts/responsive.js","label":"watch","level":"info"}
+{"message":"{\"message\":\"[200] / 21ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 48ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 68ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 38ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 49ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 44ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 67ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 40ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 65ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 35ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 45ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 39ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 83ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 39ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 60ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 47ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 52ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 51ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 55ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 46ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 61ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 48ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 58ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 40ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 57ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 46ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 50ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 38ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 43ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 42ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 46ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 45ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 45ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}
+{"message":"/src/styles/global.css","label":"watch","level":"info"}
+{"message":"[vite] program reload","label":"vite","level":"info"}
+{"message":"{\"message\":\"[200] / 39ms\",\"label\":null,\"level\":\"info\"}","label":"vite","level":"info"}

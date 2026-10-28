@@ -1,0 +1,516 @@
+---
+import '../../styles/global.css';
+import Nav from '../../components/nav/Nav.astro';
+import Pin from '../../components/posters/Pin.astro';
+import InstagramSVG from '../../components/posters/Instagram.astro';
+import BirdieSVG from '../../components/posters/Birdie.astro';
+import CIF from '../../components/posters/ClubInvolvementFair.astro';
+import CH from '../../components/posters/ClubHours.astro';
+import P from '../../components/posters/Pizza.astro';
+import ESA from '../../components/posters/ESA.astro';
+import Person from '../../components/icons/Person.astro';
+import Group from '../../components/icons/Group.astro';
+import Arrow from '../../components/icons/Arrow.astro';
+---
+
+<style>
+
+    body {
+        background-color: #ADB4FF;
+        width: 100%;
+        background-image: url('/projects/background/posters.svg');
+    }
+
+    .greater-theory {
+        font-family: 'Greater Theory';
+        color: #242582;
+    }
+
+    .kode-mono {
+        font-family: 'Kode Mono';
+        color: #242582;
+    }
+
+    .kode-mono-purplewhite {
+        font-family: 'Kode Mono';
+        color: #D8DBFF;
+    }
+
+    .kode-mono-white {
+        font-family: 'Kode Mono';
+        color: #F7F7F7;
+    }
+
+    .poster-project-name {
+        font-size: 1em;
+    }
+
+    .learn-more-button {
+        font-size: 1.15em;
+    }
+
+    .badminton-hero {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+     @media (min-width: 400) {
+        .badminton-hero {
+            aspect-ratio: 1.5/1;
+            object-fit: cover;
+        }
+    }
+
+    @media (min-width: 640px) {
+        .poster-project-name {
+            font-size: 1.15em;
+        }
+        .learn-more-button {
+            font-size: 1.25em;
+        }
+        .badminton-hero {
+            aspect-ratio: 2.75/1;
+            object-fit: cover;
+        }
+    }
+
+    @media (min-width: 800px) {
+        .badminton-hero {
+            aspect-ratio: auto;
+            object-fit: fill;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        .poster-project-name {
+            font-size: 1.25em;
+        }
+        .learn-more-button {
+            font-size: 1.35em;
+        }
+    }
+
+    @media (min-width: 1536px) {
+        .poster-project-name {
+            font-size: 1.5em;
+        }
+        .learn-more-button {
+            font-size: 1.6em;
+        }
+    }
+
+    .badminton-hero-wrapper {
+        position: relative;
+        display: inline-block;
+    }
+
+    .badminton-hero-wrapper::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(93, 94, 153, .75);
+        pointer-events: none;
+    }
+
+    .img-wrapper {
+        position: relative;
+        display: inline-block;
+    }
+
+    .img-wrapper::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(147,156,251,0);
+        pointer-events: none;
+        transition: background-color 0.2s ease;
+    }
+
+    .img-wrapper img:hover {
+        rotate: 1deg;
+        transition: rotate 0.2s ease;
+        cursor: pointer;
+    }
+
+    .img-wrapper:hover::after {
+        background: rgba(147,156,251,0);
+        rotate: 1deg;
+    }
+    
+    .drop-shadow-recs1 {
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    }
+
+</style>
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sheldon Hung | Multimedia Digital Designer | Brooklyn College Badminton Club</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Turret+Road:wght@200;300;400;500;700;800&family=Zen+Dots&display=swap" rel="stylesheet">
+    </head>
+    <body id="body" class="">
+        <Nav></Nav>
+        <div class="first grid">
+            <div class="flex flex-col justify-center text-center">
+                <span class="greater-theory text=[.75em] sm:text-[1.25em] xl:text-[1.75em] 2xl:text-[2.6em] bg-[rgba(147,156,251,.75)] drop-shadow-xl">
+                    BROOKLYN COLLEGE BADMINTON CLUB
+                </span>
+
+                <div class="grid">
+                    <div class="element-bottom z-3">
+                        <div class="badminton-hero-wrapper">
+                            <img src="/projects/hero/badminton1.webp" class="badminton-hero drop-shadow-recs1">
+                        </div>
+                    </div>
+                    <div class="element-top z-4 flex justify-center items-center">
+                        <div class="w-[80%] sm:w-[80%] text-center mb-[1%]">
+                            <div class="flex items-center justify-center gap-[2%]">
+                                <span class="kode-mono-white text-[1em] sm:text-[1.25em] xl:text-[1.75em] 2xl:text-[2.6em]">
+                                    Promoting a Fun Sport
+                                </span>
+                                <div class="w-[7.5%] mt-[-1%]"><BirdieSVG></BirdieSVG></div>
+                            </div>
+                            <p class="kode-mono-white text-[.9em] sm:text-[.95em] md:text-[1em] xl:text-[1.35em] 2xl:text-[1.75em]">
+                                A series of physical and social media posts displaying Brooklyn College 
+                                Badminton Club as an impactful, fun, and casual space. Conveys the idea that
+                                badminton is a fun sport that anyone can get into and start playing while
+                                socializing and making new friends.
+                            </p>
+                            <button class="insta-link cut-corners w-[20%] sm:w-[8%] mt-[2%] p-[.1%] bg-[rgba(147,156,251,.72)]">
+                                <a class="" target="_blank" href="https://www.instagram.com/bcbadminton/">
+                                    <InstagramSVG></InstagramSVG>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid mt-[5%]">
+                    <div class="element-bottom z-3">
+                        <div class="w-full h-full bg-[rgba(255,255,255,.15)] drop-shadow-recs1">
+                        </div>
+                    </div>
+                    <div class="element-top z-4 grid place-items-center sm:flex sm:justify-center sm:items-center">
+                        <div class="w-[80%] sm:w-[50%] text-center mb-[1%] p-[5%]">
+                            <span class="kode-mono text-[1em] sm:text-[1.25em] xl:text-[1.75em] 2xl:text-[2.6em]">
+                                Visual Identity System
+                            </span>
+                            <p class="kode-mono text-[.9em] sm:text-[.95em] md:text-[1em] xl:text-[1.35em] 2xl:text-[1.75em] mb-[2.5%]">
+                                Contains relevant design instructions pertaining to branding, colors, typefaces, backgrounds, and art.
+                            </p>
+                            <a class="kode-mono cut-corners bg-[rgba(147,156,251,.72)] w-[80%] sm:w-[35%] py-[1%] px-[2.5%] learn-more-button" target="_blank" href="/projects/posters/vis/VisualIdentitySystemFall2025.pdf">View PDF</a>
+                        </div>
+                        <img src="/projects/posters/vis/slide.webp" class="w-[80%] sm:w-[40%] drop-shadow-recs1">
+                    </div>
+                </div>
+                
+                <div class="grid mt-[5%]">
+                    <div class="element-bottom z-3">
+                        <div class="w-full h-full bg-[rgba(93,94,153,.53)] drop-shadow-recs1">
+                        </div>
+                    </div>
+                    <div class="element-top z-4 grid place-items-center sm:flex sm:justify-center sm:items-center">
+
+                        <div class="grid w-[80%] sm:w-[30%] items-center">
+                            <div class="element-bottom z-3">
+                                <div class="">
+                                    <CIF></CIF>
+                                </div>
+                            </div>
+                            <div class="element-top z-4">
+                                <div class="grid">
+                                    <div class="element-bottom z-4">
+                                        <a class="img-wrapper w-[80%]" target="_blank" href="/projects/posters/fair/digital.webp">
+                                            <img id="b4img" src="/projects/posters/fair/digital.webp" class="drop-shadow-recs1">
+                                        </a>
+                                    </div>
+                                    <div class="element-top disable-pointer-events flex justify-center m-[2%] mt-[1%] w-[95%] z-5">
+                                        <div class="w-[10%]"><Pin></Pin></div>
+                                    </div>
+                                </div>
+                            </div> 
+                            
+                        </div>
+
+                        <div class="w-[80%] sm:w-[50%] text-center mb-[1%] p-[2%]">
+                            <span class="kode-mono-purplewhite text-[1em] sm:text-[1.25em] xl:text-[1.75em] 2xl:text-[2.6em]">
+                                Club Involvement Fair
+                            </span>
+                            <p class="kode-mono-purplewhite text-[.9em] sm:text-[.95em] md:text-[1em] xl:text-[1.35em] 2xl:text-[1.75em] mb-[2.5%]">
+                                First post. Experimentation with Brooklyn College colors & bold fonts.
+                                Camera positioning within a digital environment to capture the entrance of the gym.
+                            </p>
+                        
+                            <div class="flex justify-center gap-[10%] items-center">
+                                <a class="kode-mono cut-corners bg-[rgba(147,156,251,.72)] w-[70%] sm:w-[30%] h-[50%] py-[1%] learn-more-button" target="_blank" href="/projects/posters/fair/digital.webp">View Poster</a>
+                                <a class="insta-link cut-corners w-[20%] sm:w-[15%] mt-[2%] p-[.1%] bg-[rgba(147,156,251,.72)]" target="_blank" href="https://www.instagram.com/p/DNjGk-HO8zw/">
+                                    <InstagramSVG></InstagramSVG>
+                                </a>
+                            </div>                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid mt-[5%]">
+                    <div class="element-bottom z-3">
+                        <div class="w-full h-full bg-[rgba(255,255,255,.15)] drop-shadow-recs1">
+                        </div>
+                    </div>
+                    <div class="element-top z-4 grid place-items-center sm:flex sm:justify-center sm:items-center">
+
+                        <div class="grid w-[80%] sm:hidden items-center">
+                            <div class="element-bottom z-3">
+                                <div>
+                                    <CH idPrefix="club-hours-mobile" />
+                                </div>
+                            </div>
+                            <div class="element-top z-4">
+                                <div class="grid">
+                                    <div class="element-bottom z-4">
+                                        <a class="img-wrapper w-[80%]" target="_blank" href="/projects/posters/hours/poster.webp">
+                                            <img id="b3img" src="/projects/posters/hours/poster.webp" class="drop-shadow-recs1">
+                                        </a>
+                                    </div>
+                                    <div class="element-top disable-pointer-events flex justify-center m-[2%] mt-[1%] w-[95%] z-5">
+                                        <div class="w-[10%]"><Pin></Pin></div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="w-[80%] sm:w-[50%] text-center mb-[1%] p-[2%]">
+                            <span class="kode-mono text-[1em] sm:text-[1.25em] xl:text-[1.75em] 2xl:text-[2.6em]">
+                                Club Hours
+                            </span>
+                            <p class="kode-mono text-[.9em] sm:text-[.95em] md:text-[1em] xl:text-[1.35em] 2xl:text-[1.75em] mb-[2.5%]">
+                                Focused on improving readability. Highlighting 3D models within a scene to show off details.
+                            </p>
+                        
+                            <div class="flex justify-center gap-[10%] items-center">
+                                <a class="kode-mono cut-corners bg-[rgba(147,156,251,.72)] w-[70%] sm:w-[30%] h-[50%] py-[1%] learn-more-button" target="_blank" href="/projects/posters/hours/poster.webp">View Poster</a>
+                                <a class="insta-link cut-corners w-[20%] sm:w-[15%] mt-[2%] p-[.1%] bg-[rgba(147,156,251,.72)]" target="_blank" href="https://www.instagram.com/p/DOZJv2XgYAB/">
+                                    <InstagramSVG></InstagramSVG>
+                                </a>
+                            </div>                           
+                        </div>
+
+                        <div class="hidden sm:grid sm:w-[30%] items-center">
+                            <div class="element-bottom z-3">
+                                <div>
+                                    <CH idPrefix="club-hours-desktop" />
+                                </div>
+                            </div>
+                            <div class="element-top z-4">
+                                <div class="grid">
+                                    <div class="element-bottom z-4">
+                                        <a class="img-wrapper w-[80%]" target="_blank" href="/projects/posters/hours/poster.webp">
+                                            <img id="b3img" src="/projects/posters/hours/poster.webp" class="drop-shadow-recs1">
+                                        </a>
+                                    </div>
+                                    <div class="element-top disable-pointer-events flex justify-center m-[2%] mt-[1%] w-[95%] z-5">
+                                        <div class="w-[10%]"><Pin></Pin></div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="grid mt-[5%]">
+                    <div class="element-bottom z-3">
+                        <div class="w-full h-full bg-[rgba(93,94,153,.53)] drop-shadow-recs1">
+                        </div>
+                    </div>
+                    <div class="element-top z-4 grid place-items-center sm:flex sm:justify-center sm:items-center">
+
+                        <div class="grid w-[80%] sm:w-[30%] items-center">
+                            <div class="element-bottom z-3">
+                                <div class="">
+                                    <P></P>
+                                </div>
+                            </div>
+                            <div class="element-top z-4">
+                                <div class="grid">
+                                    <div class="element-bottom z-4">
+                                        <a class="img-wrapper w-[80%]" target="_blank" href="/projects/posters/food/pizza.webp">
+                                            <img id="b2img" src="/projects/posters/food/pizza.webp" class="drop-shadow-recs1">
+                                        </a>
+                                    </div>
+                                    <div class="element-top disable-pointer-events flex justify-center m-[2%] mt-[1%] w-[95%] z-5">
+                                        <div class="w-[10%]"><Pin></Pin></div>
+                                    </div>
+                                </div>
+                            </div> 
+                            
+                        </div>
+
+                        <div class="w-[80%] sm:w-[50%] text-center mb-[1%] p-[2%]">
+                            <span class="kode-mono-purplewhite text-[1em] sm:text-[1.25em] xl:text-[1.75em] 2xl:text-[2.6em]">
+                                Pizza Event
+                            </span>
+                            <p class="kode-mono-purplewhite text-[.9em] sm:text-[.95em] md:text-[1em] xl:text-[1.35em] 2xl:text-[1.75em] mb-[2.5%]">
+                                Started to create vector graphics. Continuing use of digital environment & bold colors/fonts.
+                            </p>
+                        
+                            <div class="flex justify-center gap-[10%] items-center">
+                                <a class="kode-mono cut-corners bg-[rgba(147,156,251,.72)] w-[70%] sm:w-[30%] h-[50%] py-[1%] learn-more-button" target="_blank" href="/projects/posters/food/pizza.webp">View Poster</a>
+                                <a class="insta-link cut-corners w-[20%] sm:w-[15%] mt-[2%] p-[.1%] bg-[rgba(147,156,251,.72)]" target="_blank" href="https://www.instagram.com/p/DQmngwVjkEb/">
+                                    <InstagramSVG></InstagramSVG>
+                                </a>
+                            </div>                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid mt-[5%]">
+                    <div class="element-bottom z-3">
+                        <div class="w-full h-full bg-[rgba(255,255,255,.15)] drop-shadow-recs1">
+                        </div>
+                    </div>
+                    <div class="element-top z-4 grid place-items-center sm:flex sm:justify-center sm:items-center">
+
+                        <div class="grid w-[80%] sm:hidden items-center">
+                            <div class="element-bottom z-3">
+                                <div class="">
+                                    <ESA idPrefix="esa-mobile" />
+                                </div>
+                            </div>
+                            <div class="element-top z-4">
+                                <div class="grid">
+                                    <div class="element-bottom z-4">
+                                        <a class="img-wrapper w-[80%]" target="_blank" href="/projects/posters/esa/poster.webp">
+                                            <img id="b1img" src="/projects/posters/esa/poster.webp" class="drop-shadow-recs1">
+                                        </a>
+                                    </div>
+                                    <div class="element-top disable-pointer-events flex justify-center m-[2%] mt-[1%] w-[95%] z-5">
+                                        <div class="w-[10%]"><Pin></Pin></div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="w-[80%] sm:w-[50%] text-center mb-[1%] p-[2%]">
+                            <span class="kode-mono text-[1em] sm:text-[1.25em] xl:text-[1.75em] 2xl:text-[2.6em]">
+                                Baruch Social Event
+                            </span>
+                            <p class="kode-mono text-[.9em] sm:text-[.95em] md:text-[1em] xl:text-[1.35em] 2xl:text-[1.75em] mb-[2.5%]">
+                                Continued creation of vector graphics. Badminton rackets with respective logos representing the clubs
+                                participating at this event. Contrast between a serious look while remaining a casual event.
+                            </p>
+                        
+                            <div class="flex justify-center gap-[10%] items-center">
+                                <a class="kode-mono cut-corners bg-[rgba(147,156,251,.72)] w-[70%] sm:w-[30%] h-[50%] py-[1%] learn-more-button" target="_blank" href="/projects/posters/esa/poster.webp">View Poster</a>
+                                <a class="insta-link cut-corners w-[20%] sm:w-[15%] mt-[2%] p-[.1%] bg-[rgba(147,156,251,.72)]" target="_blank" href="https://www.instagram.com/p/DPws8-_gb5W/">
+                                    <InstagramSVG></InstagramSVG>
+                                </a>
+                            </div>                           
+                        </div>
+
+                        <div class="hidden sm:grid sm:w-[30%] items-center">
+                            <div class="element-bottom z-3">
+                                <div class="">
+                                    <ESA idPrefix="esa-desktop" />
+                                </div>
+                            </div>
+                            <div class="element-top z-4">
+                                <div class="grid">
+                                    <div class="element-bottom z-4">
+                                        <a class="img-wrapper w-[80%]" target="_blank" href="/projects/posters/esa/poster.webp">
+                                            <img id="b1img" src="/projects/posters/esa/poster.webp" class="drop-shadow-recs1">
+                                        </a>
+                                    </div>
+                                    <div class="element-top disable-pointer-events flex justify-center m-[2%] mt-[1%] w-[95%] z-5">
+                                        <div class="w-[10%]"><Pin></Pin></div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="grid mt-[5%]">
+                    <div class="element-bottom z-3">
+                        <div class="badminton-hero-wrapper">
+                            <img src="/projects/hero/badminton2.webp" class="badminton-hero drop-shadow-recs1">
+                        </div>
+                    </div>
+                    <div class="element-top z-4 flex justify-center items-center">
+                        <div class="w-[80%] sm:w-[80%] text-center mb-[1%]">
+                            <span class="kode-mono-white text-[1em] sm:text-[1.25em] xl:text-[1.75em] 2xl:text-[2.6em]">
+                                Contributions
+                            </span>
+                            <div class="grid grid-cols-2 items-center gap-[10%]">
+                                <div class="">
+                                    <span class="kode-mono-white text-[1em] sm:text-[1.25em] xl:text-[1.75em] 2xl:text-[2.6em]">
+                                        Event Participation
+                                    </span>
+                                    <div class="flex justify-center items-center gap-[10%]">
+                                        <div class="flex flex-col items-center">
+                                            <div class="w-[100%]">
+                                                <Person></Person>
+                                            </div>
+                                            <span class="w-[150%] kode-mono-white text-[.9em] sm:text-[.95em] md:text-[1em] xl:text-[1.35em] 2xl:text-[1.75em] mb-[2.5%]">
+                                                10 - 15
+                                            </span>
+                                        </div>
+                                        <div class="w-[40%]">
+                                            <Arrow></Arrow>
+                                        </div>
+                                        <div class="flex flex-col items-center">
+                                            <div class="w-[150%]">
+                                                <Group></Group>
+                                            </div>
+                                            <span class="w-[150%] kode-mono-white text-[.9em] sm:text-[.95em] md:text-[1em] xl:text-[1.35em] 2xl:text-[1.75em] mb-[2.5%]">
+                                                15 - 20
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="">
+                                    <span class="kode-mono-white text-[1em] sm:text-[1.25em] xl:text-[1.75em] 2xl:text-[2.6em]">
+                                        Social Media
+                                    </span>
+                                    <div class="flex justify-center items-center gap-[10%]">
+                                        <div class="flex flex-col items-center">
+                                            <div class="w-[62%]">
+                                                <InstagramSVG></InstagramSVG>
+                                            </div>
+                                            <span class="kode-mono-white text-[.9em] sm:text-[.95em] md:text-[1em] xl:text-[1.35em] 2xl:text-[1.75em] mb-[2.5%]">
+                                                +26% Followers
+                                            </span>
+                                        </div>
+                                        <div class="flex flex-col items-center">
+                                            <div class="w-full">
+                                                <Group></Group>
+                                            </div>
+                                            <span class="kode-mono-white text-[.9em] sm:text-[.95em] md:text-[1em] xl:text-[1.35em] 2xl:text-[1.75em] mb-[2.5%]">
+                                                +33% Joins
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>   
+    </body>
+
+</html>
+
+

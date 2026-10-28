@@ -1,0 +1,184 @@
+---
+import '../../styles/global.css';
+import Nav from '../../components/nav/Nav.astro';
+
+---
+
+<style>
+
+    body {
+        background-color: #ADB4FF;
+        width: 100%;
+        background-image: url('/projects/background/internet.svg');
+    }
+
+    .greater-theory {
+        font-family: 'Greater Theory';
+        color: #242582;
+    }
+
+    .kode-mono {
+        font-family: 'Kode Mono';
+        color: #242582;
+    }
+
+    .kode-mono-purplewhite {
+        font-family: 'Kode Mono';
+        color: #D8DBFF;
+    }
+
+    .kode-mono-white {
+        font-family: 'Kode Mono';
+        color: #F7F7F7;
+    }
+
+    .poster-project-name {
+        font-size: 1em;
+    }
+
+    .learn-more-button {
+        font-size: 1.15em;
+    }
+
+    .badminton-hero {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+     @media (min-width: 400) {
+        .badminton-hero {
+            aspect-ratio: 1.5/1;
+            object-fit: cover;
+        }
+    }
+
+    @media (min-width: 640px) {
+        .poster-project-name {
+            font-size: 1.15em;
+        }
+        .learn-more-button {
+            font-size: 1.25em;
+        }
+        .badminton-hero {
+            aspect-ratio: 2.75/1;
+            object-fit: cover;
+        }
+    }
+
+    @media (min-width: 800px) {
+        .badminton-hero {
+            aspect-ratio: auto;
+            object-fit: fill;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        .poster-project-name {
+            font-size: 1.25em;
+        }
+        .learn-more-button {
+            font-size: 1.35em;
+        }
+    }
+
+    @media (min-width: 1536px) {
+        .poster-project-name {
+            font-size: 1.5em;
+        }
+        .learn-more-button {
+            font-size: 1.6em;
+        }
+    }
+
+    .badminton-hero-wrapper {
+        position: relative;
+        display: inline-block;
+    }
+
+    .badminton-hero-wrapper::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(93, 100, 185, .25);
+        pointer-events: none;
+    }
+
+    .img-wrapper {
+        position: relative;
+        display: inline-block;
+    }
+
+    .img-wrapper::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(147,156,251,0);
+        pointer-events: none;
+        transition: background-color 0.2s ease;
+    }
+
+    .img-wrapper img:hover {
+        rotate: 1deg;
+        transition: rotate 0.2s ease;
+        cursor: pointer;
+    }
+
+    .img-wrapper:hover::after {
+        background: rgba(147,156,251,0);
+        rotate: 1deg;
+    }
+    
+    .drop-shadow-recs1 {
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    }
+
+</style>
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sheldon Hung | Multimedia Digital Designer | Music Portfolio</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Turret+Road:wght@200;300;400;500;700;800&family=Zen+Dots&display=swap" rel="stylesheet">
+    </head>
+    <body id="body" class="">
+        <Nav></Nav>
+        <div class="first grid">
+            <div class="flex flex-col justify-center text-center">
+                <span class="greater-theory text=[.75em] sm:text-[1.25em] xl:text-[1.75em] 2xl:text-[2.6em] bg-[rgba(147,156,251,.75)] drop-shadow-xl">
+                    Music Portfolio
+                </span>
+
+                <div class="h-[50vh]">
+                    <iframe class="w-full h-full drop-shadow-recs1"  src="https://sheldonwuhung.github.io/music/" title="Music Portfolio"></iframe>
+                </div>
+
+                <div class="grid">
+                    <div class="w-full flex justify-center py-[7.5%]">
+                        <div class="w-[80%] sm:w-[50%] grid place-items-center">
+                            <span class="kode-mono w-[100%] text-[1em] sm:text-[1.25em] xl:text-[1.75em] 2xl:text-[2.6em] pb-[2.5%]">
+                                Archiving Old Works In a Modern Way
+                            </span>
+                            <p class="kode-mono text-[.9em] sm:text-[.95em] md:text-[1em] xl:text-[1.35em] 2xl:text-[1.75em] mb-[2.5%]">
+                                Created a simple but stylish music player highlighting both guitar covers and original digital songs.
+                            </p>
+
+                            <a class="kode-mono cut-corners bg-[rgba(147,156,251,.72)] w-[80%] sm:w-[50%] my-[2.5%] py-[1%] learn-more-button" target="_blank" href="https://sheldonwuhung.github.io/music/">
+                                Website
+                            </a>   
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>   
+    </body>
+
+</html>
+
+

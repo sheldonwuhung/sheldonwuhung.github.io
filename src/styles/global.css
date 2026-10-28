@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Apple II Screen';
+    src: url(../fonts/AppleIiScreenTypeface-2aP3.ttf)
+}
+
+@font-face {
+    font-family: 'Greater Theory';
+    src: url(../fonts/GreaterTheory.otf)
+}
+
+@font-face {
+    font-family: 'Maratype';
+    src: url(../fonts/Maratype.otf)
+}
+
+@font-face {
+    font-family: 'Blue Screen Personal Use';
+    src: url(../fonts/BlueScreenPersonalUseRegular-0W1M9.ttf)
+}
+
+@font-face {
+    font-family: 'Kode Mono';
+    src: url(../fonts/KodeMono-VariableFont_wght.ttf)
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter.ttf)
+}
+
+@font-face {
+    font-family: 'Inria Serif';
+    src: url(../fonts/InriaSerif-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Boruna';
+    src: url(../fonts/BorunaDemoVersionRegular-vmDA7.otf)
+}
+
+@font-face {
+    font-family: 'Bumerang';
+    src: url(../fonts/BumerangDemoVersionRegular-nRwZY.otf)
+}
+
+@font-face {
+    font-family: 'Te Quirtez';
+    src: url(../fonts/TeQuirtez-mLGEP.otf)
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.first {
+    padding-top: 3.75em;
+}
+
+.border * {
+    border: solid rgb(0, 0, 0) 1px;
+}
+
+.grid-container-am, .grid-container {
+    display: grid;
+}
+
+.element-bottom, .element-top, .element-bottom-ab1, .element-top-ab1, .element-bottom-pn, .element-top-pn, .element-bottom-cm, .element-top-cm {
+    grid-area: 1 / 1;
+}
+
+.element-top-am {
+    z-index: 2; 
+    display: flex;
+    height: auto;
+}
+
+.element-bottom-ab1 {
+    z-index: 2; 
+}
+
+.cut-corners {
+  --bevel: 10%;
+
+  clip-path: polygon(
+    var(--bevel) 0%, 
+    calc(100% - var(--bevel)) 0%, 
+    100% var(--bevel), 
+    100% calc(100% - var(--bevel)), 
+    calc(100% - var(--bevel)) 100%, 
+    var(--bevel) 100%, 
+    0% calc(100% - var(--bevel)), 
+    0% var(--bevel)
+  );
+}
+
+.insta-link:hover, .learn-more-button:hover {
+    background-color: #707AE9; 
+    cursor:pointer;
+}
+
+.disable-pointer-events {
+    pointer-events: none;
+}
+

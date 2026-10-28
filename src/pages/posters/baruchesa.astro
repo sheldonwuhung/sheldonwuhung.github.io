@@ -1,0 +1,290 @@
+---
+import '../../styles/global.css';
+import Nav from '../../components/nav/Nav.astro';
+import Pin from '../../components/posters/Pin.astro';
+import InstagramSVG from '../../components/posters/Instagram.astro';
+import BirdieSVG from '../../components/posters/Birdie.astro';
+import H from '../../components/posters/Halloween.astro';
+import GIM from '../../components/posters/GIM.astro';
+
+
+
+---
+
+<style>
+
+    body {
+        background-color: #ADB4FF;
+        width: 100%;
+        background-image: url('/projects/background/posters.svg');
+    }
+
+    .greater-theory {
+        font-family: 'Greater Theory';
+        color: #242582;
+    }
+
+    .kode-mono {
+        font-family: 'Kode Mono';
+        color: #242582;
+    }
+
+    .kode-mono-purplewhite {
+        font-family: 'Kode Mono';
+        color: #D8DBFF;
+    }
+
+    .kode-mono-white {
+        font-family: 'Kode Mono';
+        color: #F7F7F7;
+    }
+
+    .poster-project-name {
+        font-size: 1em;
+    }
+
+    .learn-more-button {
+        font-size: 1.15em;
+    }
+
+    .badminton-hero {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+     @media (min-width: 400) {
+        .badminton-hero {
+            aspect-ratio: 1.5/1;
+            object-fit: cover;
+        }
+    }
+
+    @media (min-width: 640px) {
+        .poster-project-name {
+            font-size: 1.15em;
+        }
+        .learn-more-button {
+            font-size: 1.25em;
+        }
+        .badminton-hero {
+            aspect-ratio: 2.75/1;
+            object-fit: cover;
+        }
+    }
+
+    @media (min-width: 800px) {
+        .badminton-hero {
+            aspect-ratio: auto;
+            object-fit: fill;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        .poster-project-name {
+            font-size: 1.25em;
+        }
+        .learn-more-button {
+            font-size: 1.35em;
+        }
+    }
+
+    @media (min-width: 1536px) {
+        .poster-project-name {
+            font-size: 1.5em;
+        }
+        .learn-more-button {
+            font-size: 1.6em;
+        }
+    }
+
+    .badminton-hero-wrapper {
+        position: relative;
+        display: inline-block;
+    }
+
+    .badminton-hero-wrapper::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(93, 94, 153, .75);
+        pointer-events: none;
+    }
+
+    .img-wrapper {
+        position: relative;
+        display: inline-block;
+    }
+
+    .img-wrapper::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(147,156,251,0);
+        pointer-events: none;
+        transition: background-color 0.2s ease;
+    }
+
+    .img-wrapper img:hover {
+        rotate: 1deg;
+        transition: rotate 0.2s ease;
+        cursor: pointer;
+    }
+
+    .img-wrapper:hover::after {
+        background: rgba(147,156,251,0);
+        rotate: 1deg;
+    }
+    
+    .drop-shadow-recs1 {
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    }
+
+</style>
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sheldon Hung | Multimedia Digital Designer | Baruch Esports Association</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Turret+Road:wght@200;300;400;500;700;800&family=Zen+Dots&display=swap" rel="stylesheet">
+    </head>
+    <body id="body" class="">
+        <Nav></Nav>
+        <div class="first grid">
+            <div class="flex flex-col justify-center text-center">
+                <span class="greater-theory text=[.75em] sm:text-[1.25em] xl:text-[1.75em] 2xl:text-[2.6em] bg-[rgba(147,156,251,.75)] drop-shadow-xl">
+                    BARUCH ESPORTS ASSOCIATION
+                </span>
+
+                <div class="grid">
+                    <div class="element-bottom z-3">
+                        <div class="badminton-hero-wrapper">
+                            <img src="/projects/hero/baruchesa1.webp" class="badminton-hero drop-shadow-recs1">
+                        </div>
+                    </div>
+                    <div class="element-top z-4 flex justify-center items-center">
+                        <div class="w-[80%] sm:w-[80%] text-center mb-[1%]">
+                            <div class="flex items-center justify-center gap-[2%]">
+                                <span class="kode-mono-white text-[1em] sm:text-[1.25em] xl:text-[1.75em] 2xl:text-[2.6em]">
+                                    Expressing a Vibrant Environment
+                                </span>
+                                <div class="w-[7.5%] mt-[-1%]"><BirdieSVG></BirdieSVG></div>
+                            </div>
+                            <p class="kode-mono-white text-[.9em] sm:text-[.95em] md:text-[1em] xl:text-[1.35em] 2xl:text-[1.75em]">
+                                Social media posts displaying Baruch Esports Association as a welcoming
+                                environment with lots of fun activities. Implementation of Minecraft
+                                theme as one of the many game themes used for the Instagram page.
+                            </p>
+                            <button class="insta-link cut-corners w-[20%] sm:w-[8%] mt-[2%] p-[.1%] bg-[rgba(147,156,251,.72)]">
+                                <a class="" target="_blank" href="https://www.instagram.com/baruchesa/">
+                                    <InstagramSVG></InstagramSVG>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="grid mt-[5%]">
+                    <div class="element-bottom z-3">
+                        <div class="w-full h-full bg-[rgba(255,255,255,.15)] drop-shadow-recs1">
+                        </div>
+                    </div>
+                    <div class="element-top z-4 grid place-items-center sm:flex sm:justify-center sm:items-center">
+
+                        <div class="grid w-[80%] sm:w-[30%] items-center">
+                            <div class="element-bottom z-3">
+                                <div class="">
+                                    <H></H>
+                                </div>
+                            </div>
+                            <div class="element-top z-4">
+                                <div class="grid">
+                                    <div class="element-bottom z-4">
+                                        <a class="img-wrapper w-[80%]" target="_blank" href="/projects/posters/esa/potion.webp">
+                                            <img id="e1img" src="/projects/posters/esa/potion.webp" class="drop-shadow-recs1">
+                                        </a>
+                                    </div>
+                                    <div class="element-top disable-pointer-events flex justify-center m-[2%] mt-[1%] w-[95%] z-5">
+                                        <div class="w-[10%]"><Pin></Pin></div>
+                                    </div>
+                                </div>
+                            </div> 
+                            
+                        </div>
+
+                        <div class="w-[80%] sm:w-[50%] text-center mb-[1%] p-[2%]">
+                            <span class="kode-mono text-[1em] sm:text-[1.25em] xl:text-[1.75em] 2xl:text-[2.6em]">
+                                Halloween Drink Making
+                            </span>
+                            <p class="kode-mono text-[.9em] sm:text-[.95em] md:text-[1em] xl:text-[1.35em] 2xl:text-[1.75em] mb-[2.5%]">
+                                Editing virtual characters to be the highlight of the poster. 
+                            </p>
+                        
+                            <div class="flex justify-center gap-[10%] items-center">
+                                <a class="kode-mono cut-corners bg-[rgba(147,156,251,.72)] w-[70%] sm:w-[30%] h-[50%] py-[1%] learn-more-button" target="_blank" href="/projects/posters/esa/potion.webp">View Poster</a>
+                                <a class="insta-link cut-corners w-[20%] sm:w-[15%] mt-[2%] p-[.1%] bg-[rgba(147,156,251,.72)]" target="_blank" href="https://www.instagram.com/p/DQYSy7VjK9P/">
+                                    <InstagramSVG></InstagramSVG>
+                                </a>
+                            </div>                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid mt-[5%]">
+                    <div class="element-bottom z-3">
+                        <div class="w-full h-full bg-[rgba(93,94,153,.53)] drop-shadow-recs1">
+                        </div>
+                    </div>
+                    <div class="element-top z-4 grid place-items-center sm:flex sm:justify-center sm:items-center">
+
+                        <div class="w-[80%] sm:w-[50%] text-center mb-[1%] p-[2%]">
+                            <span class="kode-mono-white text-[1em] sm:text-[1.25em] xl:text-[1.75em] 2xl:text-[2.6em]">
+                                General Interest Meeting
+                            </span>
+                            <p class="kode-mono-white text-[.9em] sm:text-[.95em] md:text-[1em] xl:text-[1.35em] 2xl:text-[1.75em] mb-[2.5%]">
+                                Focused on improving readability. Highlighting 3D models within a scene to show off details.
+                            </p>
+                        
+                            <div class="flex justify-center gap-[10%] items-center">
+                                <a class="kode-mono cut-corners bg-[rgba(147,156,251,.72)] w-[70%] sm:w-[30%] h-[50%] py-[1%] learn-more-button" target="_blank" href="/projects/posters/esa/gim.webp">View Poster</a>
+                                <a class="insta-link cut-corners w-[20%] sm:w-[15%] mt-[2%] p-[.1%] bg-[rgba(147,156,251,.72)]" target="_blank" href="https://www.instagram.com/p/DOEgdKtgYwC/">
+                                    <InstagramSVG></InstagramSVG>
+                                </a>
+                            </div>                           
+                        </div>
+
+                        <div class="grid w-[80%] sm:w-[30%] items-center">
+                            <div class="element-bottom z-3">
+                                <div class="">
+                                    <GIM></GIM>
+                                </div>
+                            </div>
+                            <div class="element-top z-4">
+                                <div class="grid">
+                                    <div class="element-bottom z-4">
+                                        <a class="img-wrapper w-[80%]" target="_blank" href="/projects/posters/esa/gim.webp">
+                                            <img id="e2img" src="/projects/posters/esa/gim.webp" class="drop-shadow-recs1">
+                                        </a>
+                                    </div>
+                                    <div class="element-top disable-pointer-events flex justify-center m-[2%] mt-[1%] w-[95%] z-5">
+                                        <div class="w-[10%]"><Pin></Pin></div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>   
+    </body>
+
+</html>
+
+

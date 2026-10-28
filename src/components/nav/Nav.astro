@@ -1,0 +1,139 @@
+---
+import Logo from '../logo/Logo.astro';
+---
+
+<style>
+    @media screen and (min-width: 640px) {
+        button {
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 640px) {
+        button {
+            text-align: end;
+        }
+    }
+    
+    @media screen and (max-width: 1280px) {
+        button, #contact-container {
+            padding-top: .5em;
+            padding-bottom: .5em;
+            padding-left: 1.25em;
+            padding-right: 1.25em;
+            font-family: 'Apple II Screen';
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        button, #contact-container {
+            padding-top: .75em;
+            padding-bottom: .75em;
+            padding-left: 1.25em;
+            padding-right: 1.25em;
+            font-family: 'Apple II Screen';
+        }
+    }
+
+    button {
+        background-color: #939CFB;
+        color: #242582;
+
+        flex:1 1 0; min-width:0; display:block;
+    }
+    #mobile-div-center {
+        background-color: #939CFB;
+        color: #242582;
+
+        flex:1 1 0; min-width:0;
+    }
+    #contact-container {
+        background-color: #242582;
+        color: #939CFB;
+    }
+    button:hover {
+        color: #9E34A8;
+        background-color: #8791fa;
+        cursor: pointer;
+    }
+    #contact-container:hover {
+        color: #f262ff;
+        background-color: #3133a0;
+        cursor: pointer;
+    }
+    .text-1 {
+        font-family: 'Apple II Screen';
+    }
+
+</style>
+
+<div class="flex justify-start sm:justify-center">
+    <nav id="nav" class="w-full text-sm sm:text-md md:text-[1.05em] lg:text-[1.115em] 2xl:text-[1.3em] sm:flex fixed z-999">
+        <div class="flex text-center">
+            <button style="flex:none" id="contact-container">
+                <Logo></Logo>
+            </button>
+            <div class="flex sm:hidden" id="mobile-div-center">
+                <div class="w-[80%] flex items-center justify-center text-1">
+                    SHELDON HUNG
+                </div>
+                <button id="hamburger-button" class="w-[5%]">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="button-list" class="hidden flex-col w-full sm:flex sm:flex-row">
+            <button id="about" onclick="window.location.href='/';">ABOUT</button>
+            <button id="posters" onclick="window.location.href='/posters';">POSTERS</button>
+            <button id="internet" onclick="window.location.href='/internet';">INTERNET</button>
+            <button id="3dmodels" onclick="window.location.href='/3dmodels';">3D MODELS</button>
+            <!-- <button id="games" onclick="window.location.href='/games';">GAMES</button> -->
+            <button id="contact-container" onclick="window.location.href='/#googleForm';">
+                CONTACT ME
+            </button>
+        </div>
+    </nav>
+</div>
+
+<script>
+import type { logHandlers } from "astro/config";
+
+    const hamburgerButton = document.getElementById("hamburger-button");
+    const buttonList = document.getElementById("button-list");
+
+    const path = window.location.pathname;
+    console.log(path)
+    const fileName = path.substring(1);
+    const indexToSlash = fileName.indexOf("/");
+    let correspondingElement;
+
+    if (indexToSlash == -1) correspondingElement = fileName == "" ? document.getElementById('about') : document.getElementById(fileName);
+    else {
+        const parentName = fileName.substring(0, indexToSlash);
+        console.log(parentName);
+        correspondingElement = document.getElementById(parentName);
+    }
+    
+    correspondingElement?.classList.add('underline', 'decoration-dotted', 'decoration-4', 'underline-offset-4');
+
+    if (hamburgerButton && buttonList) {
+        hamburgerButton.addEventListener('click', () => {
+            if (buttonList.classList.contains('hidden')) {
+                buttonList.classList.replace("hidden", "flex");
+            } else {
+                buttonList.classList.replace("flex", "hidden");
+            }
+        });
+
+        window.addEventListener('resize', () => {
+            if (!buttonList) return;
+
+            if (window.innerWidth >= 640 && buttonList.classList.contains('hidden')) {
+                buttonList.classList.replace("hidden", "flex");
+            }
+            else {buttonList.classList.replace("flex", "hidden");}
+        });
+    }
+
+</script>
