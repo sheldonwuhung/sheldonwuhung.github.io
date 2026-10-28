@@ -3,6 +3,9 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://sheldonwuhung.github.io",
+  output: "static",
+
   vite: {
     plugins: [tailwindcss()],
     server: {
@@ -11,6 +14,4 @@ export default defineConfig({
       },
     },
   },
-
-  adapter: cloudflare(),
 });

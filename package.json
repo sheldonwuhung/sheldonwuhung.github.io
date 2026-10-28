@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "generate-types": "wrangler types"
+    "preview": "astro preview"
   },
   "keywords": [],
   "author": "",
